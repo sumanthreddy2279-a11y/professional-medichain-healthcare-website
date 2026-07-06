@@ -1,0 +1,454 @@
+/* ==========================================
+   MediChain Health Responsive Styles
+   Mobile First Responsive Design
+========================================== */
+
+/* =========================
+   Large Screens (1200px+)
+========================= */
+
+@media (min-width:1200px){
+
+.container{
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+}
+
+
+/* =========================
+   Laptop (992px)
+========================= */
+
+@media (max-width:992px){
+
+.hero-content h1{
+
+font-size:48px;
+
+}
+
+.hero-content p{
+
+font-size:18px;
+
+}
+
+.about .container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.feature-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.service-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.testimonial-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.footer-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.contact-page{
+
+grid-template-columns:1fr;
+
+}
+
+.team-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.stats{
+
+grid-template-columns:repeat(2,1fr);
+
+gap:40px;
+
+padding:60px;
+
+}
+
+}
+
+
+/* =========================
+   Tablet (768px)
+========================= */
+
+@media (max-width:768px){
+
+header{
+
+padding:0;
+
+}
+
+/* Navigation */
+
+.menu-btn{
+
+display:block;
+
+font-size:30px;
+
+color:#0077ff;
+
+cursor:pointer;
+
+}
+
+.nav-links{
+
+position:absolute;
+
+top:80px;
+
+left:-100%;
+
+width:100%;
+
+background:white;
+
+flex-direction:column;
+
+text-align:center;
+
+transition:.4s;
+
+padding:30px 0;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.nav-links.active{
+
+left:0;
+
+}
+
+.nav-links li{
+
+margin:18px 0;
+
+}
+
+.hero{
+
+height:90vh;
+
+}
+
+.hero-content{
+
+width:90%;
+
+}
+
+.hero-content h1{
+
+font-size:38px;
+
+line-height:1.3;
+
+}
+
+.hero-content p{
+
+font-size:17px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+margin:10px;
+
+}
+
+.btn2{
+
+display:inline-block;
+
+margin:10px;
+
+}
+
+.features h2,
+
+.services-preview h2,
+
+.about-text h2,
+
+.testimonials h2,
+
+.cta h2{
+
+font-size:34px;
+
+}
+
+.feature-container{
+
+grid-template-columns:1fr;
+
+}
+
+.service-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.testimonial-container{
+
+grid-template-columns:1fr;
+
+}
+
+.footer-container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.team-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.stats{
+
+grid-template-columns:1fr;
+
+}
+
+.contact-page{
+
+grid-template-columns:1fr;
+
+}
+
+.page-banner{
+
+padding:130px 20px 70px;
+
+}
+
+.page-banner h1{
+
+font-size:40px;
+
+}
+
+}
+
+
+/* =========================
+   Mobile (576px)
+========================= */
+
+@media (max-width:576px){
+
+.container{
+
+width:95%;
+
+}
+
+.logo h2{
+
+font-size:24px;
+
+}
+
+.hero-content h1{
+
+font-size:30px;
+
+}
+
+.hero-content p{
+
+font-size:15px;
+
+}
+
+.btn,
+
+.btn2{
+
+padding:12px 24px;
+
+font-size:14px;
+
+}
+
+.about{
+
+padding:70px 0;
+
+}
+
+.about-text h2{
+
+font-size:30px;
+
+}
+
+.about-text p{
+
+font-size:15px;
+
+}
+
+.card{
+
+padding:30px;
+
+}
+
+.card i{
+
+font-size:42px;
+
+}
+
+.service-card{
+
+padding:30px;
+
+}
+
+.testimonial{
+
+padding:25px;
+
+}
+
+.stat h2{
+
+font-size:38px;
+
+}
+
+.stat p{
+
+font-size:15px;
+
+}
+
+.cta{
+
+padding:70px 15px;
+
+}
+
+.cta h2{
+
+font-size:30px;
+
+}
+
+.contact-form input,
+
+.contact-form textarea{
+
+font-size:15px;
+
+padding:12px;
+
+}
+
+.page-banner h1{
+
+font-size:34px;
+
+}
+
+.page-banner p{
+
+font-size:16px;
+
+}
+
+footer{
+
+padding:40px 20px;
+
+}
+
+}
+
+
+/* =========================
+   Small Mobile (400px)
+========================= */
+
+@media (max-width:400px){
+
+.hero-content h1{
+
+font-size:26px;
+
+}
+
+.hero-content p{
+
+font-size:14px;
+
+}
+
+.logo h2{
+
+font-size:22px;
+
+}
+
+.btn,
+
+.btn2{
+
+display:block;
+
+margin:15px auto;
+
+width:200px;
+
+}
+
+.page-banner h1{
+
+font-size:28px;
+
+}
+
+}
